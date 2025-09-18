@@ -3,14 +3,29 @@ import { ContextExtended } from "../types";
 
 const notes = new Hono();
 
-notes.get("/", async (ctx: ContextExtended) => {});
+// TODO: In-Workshop Activities.
+notes.get('/', async (ctx: ContextExtended) => {
+    return Response.json([])
+});
 
-notes.get("/:id", async (ctx: ContextExtended) => {});
+// TODO: In-Workshop Activities.
+notes.get('/:id', async (ctx: ContextExtended) => {
+    return Response.json({})
+});
 
-notes.post("/", async (ctx: ContextExtended) => {});
+// TODO: In-Workshop Activities.
+notes.post('/', async (ctx: ContextExtended) => {
+    return Response.json({ message: "note created" })
+});
 
-notes.put("/:id", async (ctx: ContextExtended) => {});
+// TODO: In-Workshop Activities.
+notes.put('/:id', async (ctx: ContextExtended) => {
+    return Response.json({ message: "note updated" })
+});
 
-notes.delete("/:id", async (ctx: ContextExtended) => {});
+// TODO: In-Workshop Activities.
+notes.delete('/:id', async (ctx: ContextExtended) => {
+    return Response.json({ message: "note deleted" })
+});
 
 export default notes;

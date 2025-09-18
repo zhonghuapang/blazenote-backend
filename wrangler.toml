@@ -3,11 +3,11 @@ main = "src/index.ts"
 compatibility_date = "2024-12-30"
 compatibility_flags = [ "nodejs_compat" ]
 
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "blazenote"
-# database_id = "<DATABASE ID>"
-# migrations_dir = "./migrations"
+[[d1_databases]]
+binding = "DB"
+database_name = "blazenote"
+database_id = "b4cfd2fb-2c95-43f7-a289-c92c1ec0538f"
+migrations_dir = "./migrations"
 
 # [ai]
 # binding = "AI"
